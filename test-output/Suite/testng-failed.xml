@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Testng.xml(failed)">
+    <classes>
+      <class name="Selen123.NewTest">
+        <methods>
+          <include name="login"/>
+        </methods>
+      </class> <!-- Selen123.NewTest -->
+    </classes>
+  </test> <!-- Testng.xml(failed) -->
+</suite> <!-- Failed suite [Suite] -->
