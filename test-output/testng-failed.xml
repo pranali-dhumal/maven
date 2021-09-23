@@ -3,11 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Selen123.NewTest">
+      <class name="Selen123.Datapro">
         <methods>
-          <include name="login"/>
+          <include name="CloseBrowser"/>
+          <include name="OrangeHRM_Login"/>
+          <include name="LaunchBrowser"/>
         </methods>
-      </class> <!-- Selen123.NewTest -->
+      </class> <!-- Selen123.Datapro -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
